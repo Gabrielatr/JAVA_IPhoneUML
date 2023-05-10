@@ -2,7 +2,7 @@ package model;
 
 import repository.IPhone;
 
-public class Iphone extends IPhone {
+public class Iphone1 extends IPhone {
 
     /* Construtores */
 
@@ -49,6 +49,16 @@ public class Iphone extends IPhone {
     @Override
     public void RequisicaoSite(String URL) {
         super.RequisicaoSite(URL);
+    }
+
+    @Override
+    public void atualizarPagina() {
+        super.atualizarPagina();
+    }
+
+    @Override
+    public void adicionarAba() {
+        super.adicionarAba();
     }
 
     @Override

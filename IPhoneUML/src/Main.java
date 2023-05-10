@@ -1,8 +1,8 @@
-import model.Iphone;
+import model.Iphone1;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Iphone ip = new Iphone();
+        Iphone1 ip = new Iphone1();
 
         /* Telefone */
         ip.ligar_para(789456123);
@@ -12,6 +12,8 @@ public class Main {
         /* Web */
 
         ip.RequisicaoSite("www.sapo.pt");
+        ip.adicionarAba();
+        ip.atualizarPagina();
         ip.FecharSite();
 
         /* Música */

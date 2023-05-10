@@ -71,6 +71,23 @@ public abstract class IPhone implements ITelefone, INavegadorWeb, IMusica {
     }
 
     @Override
+    public void adicionarAba() {
+        System.out.println("Aba aberta");
+    }
+
+    @Override
+    public void atualizarPagina() {
+
+        double nAleatorio = Math.round(Math.random());
+        if(nAleatorio == 1.0){
+            System.out.println("Página atualizada com sucesso!"); 
+        }else{
+            System.out.println("Erro ao atualizar a página!");
+        }
+        
+    }
+
+    @Override
     public void FecharSite() {
         System.out.println("Site fechado");
     }
